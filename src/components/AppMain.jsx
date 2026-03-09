@@ -1,7 +1,13 @@
+import jumbotron from '/public/img/jumbotron.jpg'
+
 export default function AppMain() {
   return (
     <>
-      <main>content goes here</main>
+      <main className>
+        <div className="jumbotron">
+          <img src={jumbotron} alt="jumbotron" />
+        </div>
+      </main>
     </>
   )
 }
