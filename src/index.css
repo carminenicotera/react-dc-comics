@@ -1,1 +1,35 @@
-@import url('bootstrap')
+@import url('bootstrap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: var(--mol-light);
+  padding-bottom: 2.5rem;
+
+  img{
+    margin-top: 1rem;
+  }
+
+  nav {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+
+    a {
+      color: var(--mol-dark);
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+
+
+      &.active {
+        color: cornflowerblue;
+      }
+    }
+  }
+}
