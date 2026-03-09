@@ -7,7 +7,7 @@
 }
 
 header {
-  background-color: var(--mol-light);
+  background-color: white;
   padding-bottom: 2.5rem;
 
   img{
@@ -20,7 +20,7 @@ header {
     gap: 1rem;
 
     a {
-      color: var(--mol-dark);
+      color: black;
       text-decoration: none;
       padding: 0.5rem 1rem;
       font-size: 0.9rem;
@@ -28,7 +28,7 @@ header {
 
 
       &.active {
-        color: cornflowerblue;
+        color: #0282f9;
       }
     }
   }

@@ -1,7 +1,7 @@
 export default function AppMain() {
   return (
     <>
-      <main>main</main>
+      <main>content goes here</main>
     </>
   )
 }
