@@ -1,3 +1,4 @@
+import AppCard from './AppCard';
 import jumbotron from '/public/img/jumbotron.jpg'
 
 const comics = [
@@ -167,19 +168,12 @@ export default function AppMain() {
         <div className="container">
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 g-4">
 
-              {
-                comics.map(comic => (
-                  <div className="col" key={ comic.id }>
-                    <div className="card border-0">
-                      <img src={ comic.thumb } className="card-img-top rounded-0 border-0" alt="cover comic" />
-                      <div className="card-body">
-                        <h5 className="card-title">{ comic.series }</h5>
-                      </div>
-                    </div>
-                  </div>
-                ))
-              }
+              { comics.map(comic => (
 
+                <AppCard series={comic.series} thumb={comic.thumb} key={comic.id} />
+
+              )) }
+              
             </div>
         </div>
       </main>
