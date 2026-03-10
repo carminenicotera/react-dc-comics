@@ -20,6 +20,7 @@ header {
     display: flex;
     justify-content: end;
     gap: 1rem;
+    flex-wrap: wrap;
 
     a {
       color: black;
@@ -58,8 +59,41 @@ main {
     img {
       width: 100%;
       height: 100%;
+      display: block;
       object-fit: cover;
       object-position: 50% 1%;
     }
   }
 }
+
+/* Footer */
+footer {
+  background-image: url('/public/img/footer-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 0;
+
+  h3 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .nav-link {
+    color: #999;
+    padding: 2px 0;
+    font-size: 14px;
+  }
+
+  ul {
+    margin-bottom: 20px;
+  }
+
+  img {
+    max-height: 400px;
+    max-width: 100%;
+    opacity: 0.3;
+  }
+}
+
+/* 303030 colore footer */

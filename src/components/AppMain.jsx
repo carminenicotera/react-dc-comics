@@ -164,7 +164,7 @@ export default function AppMain() {
           <img src={ jumbotron } alt="jumbotron" />
         </div>
 
-        <div className="container px-0">
+        <div className="container">
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 g-4">
 
               {
